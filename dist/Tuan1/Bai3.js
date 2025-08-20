@@ -2,15 +2,15 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 // 3. Create a class Car with properties brand, model, year. Write a method to show car info.
 class Car {
+    showCar() {
+        console.log("Information of car : ", this.brand + " " + this.model + " " + this.year);
+    }
     constructor(brand, model, year) {
-        this.brand = brand,
-            this.model = model,
+        this.brand = brand;
+        this.model = model,
             this.year = year;
     }
 }
-function showCar(car) {
-    console.log("Information of car : ", JSON.stringify(car));
-}
 const car = new Car("Mecedes", "C300", 2000);
-showCar(car);
+car.showCar();
 //# sourceMappingURL=Bai3.js.map

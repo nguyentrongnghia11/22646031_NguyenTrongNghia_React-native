@@ -2,21 +2,23 @@
 class Car {
     brand: string;
     model: string;
-    year: number
+    year: number;
+    
+     showCar() {
+    console.log("Information of car : ", this.brand + " " + this.model + " " + this.year)
 
-    constructor (brand: string, model: string, year: number) {
-        this.brand = brand,
+}
+
+constructor(brand: string, model: string, year: number) {
+        this.brand = brand
         this.model = model,
         this.year = year
-    }
+}
     
 }
 
- function showCar (car: Car) {
-    console.log ("Information of car : ", JSON.stringify(car))
-
-}
 
 const car = new Car("Mecedes", "C300", 2000)
 
-showCar (car)
+car.showCar()
+
