@@ -8,7 +8,11 @@ class User {
         return this.name
     }
 
-    setName (name: string) {
+    setName(name: string) {
         this.name = name
     }
 }
+
+
+const user = new User("Nguyen Trong Nghia")
+console.log(user.getName())
