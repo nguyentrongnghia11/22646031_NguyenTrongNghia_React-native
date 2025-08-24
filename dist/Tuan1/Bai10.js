@@ -7,4 +7,3 @@ class Account {
         this.balance = balance;
     }
 }
-//# sourceMappingURL=Bai10.js.map

@@ -16,4 +16,3 @@ bankOfNghia.deposit(10000);
 console.log("Money after deposit " + 10000 + " is " + bankOfNghia.balance);
 bankOfNghia.withdraw(200);
 console.log("Money after withdraw " + 200 + " is " + bankOfNghia.balance);
-//# sourceMappingURL=Bai5.js.map

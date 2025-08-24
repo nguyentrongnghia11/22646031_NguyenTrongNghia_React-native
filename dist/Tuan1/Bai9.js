@@ -10,4 +10,3 @@ class Dog {
 }
 const dog = new Dog("Huslang");
 console.log(dog.sound());
-//# sourceMappingURL=Bai9.js.map

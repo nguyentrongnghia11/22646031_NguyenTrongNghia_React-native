@@ -13,4 +13,3 @@ class User {
 }
 const user = new User("Nguyen Trong Nghia");
 console.log(user.getName());
-//# sourceMappingURL=Bai7.js.map

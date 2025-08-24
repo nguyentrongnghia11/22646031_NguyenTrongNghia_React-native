@@ -44,4 +44,3 @@ console.log(goldfish.swim());
 console.log(donald.fly());
 console.log(donald.swim());
 console.log(donald.quack());
-//# sourceMappingURL=Bai12.js.map

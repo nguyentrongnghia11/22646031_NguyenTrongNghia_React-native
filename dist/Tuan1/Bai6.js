@@ -10,4 +10,3 @@ class Book {
 const book = new Book("Conan", "ABC", 1998);
 const b = JSON.stringify(book);
 console.log(`Book : ${b}`);
-//# sourceMappingURL=Bai6.js.map

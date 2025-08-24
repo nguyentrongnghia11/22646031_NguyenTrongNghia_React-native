@@ -14,4 +14,3 @@ let height = 10;
 let width = 20;
 const rectangle = new Rectangle(height, width);
 rectangle.area_and_perimeter();
-//# sourceMappingURL=Bai4.js.map

@@ -24,4 +24,3 @@ const square = new Square(5);
 const circle = new Circle(3);
 console.log(square.area());
 console.log(circle.area());
-//# sourceMappingURL=Bai13.js.map

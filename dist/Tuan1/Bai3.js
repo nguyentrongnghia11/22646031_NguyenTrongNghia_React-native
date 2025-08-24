@@ -13,4 +13,3 @@ class Car {
 }
 const car = new Car("Mecedes", "C300", 2000);
 car.showCar();
-//# sourceMappingURL=Bai3.js.map

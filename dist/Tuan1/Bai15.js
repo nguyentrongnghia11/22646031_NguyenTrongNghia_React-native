@@ -36,4 +36,3 @@ const user2 = new User("Người dùng 2", "ID-002");
 library.addUser(user1);
 library.addUser(user2);
 console.log("Add success");
-//# sourceMappingURL=Bai15.js.map

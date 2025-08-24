@@ -14,4 +14,3 @@ class Logger {
 }
 const logger = Logger.getInstance();
 logger.log("Hello World");
-//# sourceMappingURL=Bai17.js.map

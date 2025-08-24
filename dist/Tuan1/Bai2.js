@@ -9,4 +9,3 @@ class Student extends Bai1_1.default {
 }
 const student = new Student("Nguyen Trong Nghia", 21, "DHKTPM18A");
 console.log(student);
-//# sourceMappingURL=Bai2.js.map

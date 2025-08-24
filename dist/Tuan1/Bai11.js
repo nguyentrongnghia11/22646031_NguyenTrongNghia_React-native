@@ -18,4 +18,3 @@ class Meo {
         return "meo meo meo";
     }
 }
-//# sourceMappingURL=Bai11.js.map

@@ -22,4 +22,3 @@ const manager = new Manager("Nghia", 35, 8);
 const developer = new Developer("Trong", 28, "TypeScript");
 console.log(manager);
 console.log(developer);
-//# sourceMappingURL=Bai14.js.map

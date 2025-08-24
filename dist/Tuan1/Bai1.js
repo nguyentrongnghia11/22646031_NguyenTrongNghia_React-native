@@ -9,4 +9,3 @@ class Person {
 const person = new Person("Nguyen Trong Nghia", 21);
 // console.log (person)
 exports.default = Person;
-//# sourceMappingURL=Bai1.js.map
