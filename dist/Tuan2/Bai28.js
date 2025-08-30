@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 async function fakeTask(id) {
     const delay = Math.floor(Math.random() * 2000) + 1000; // 1-3 giây
     await new Promise(resolve => setTimeout(resolve, delay));
-    console.log(`Task ${id} done (sau ${delay}ms)`);
+    console.log(`Task ${id} done`);
     return id;
 }
 async function batchProcess() {
