@@ -6,7 +6,6 @@ async function multiplyAfter1s(num) {
 }
 async function runParallel() {
     console.log("Bắt đầu...");
-    // gọi 3 hàm cùng lúc
     const results = await Promise.all([
         multiplyAfter1s(2),
         multiplyAfter1s(4),
