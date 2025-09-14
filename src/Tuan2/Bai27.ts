@@ -19,7 +19,6 @@ async function fetchWithRetry(url:string, retries :number) {
   }
 }
 
-// Thử gọi
 fetchWithRetry("https://jsonplaceholder.typicode.com/todos/1", 3)
   .then(data => console.log("Dữ liệu nhận được:", data))
   .catch(err => console.error("Lỗi:", err.message));
